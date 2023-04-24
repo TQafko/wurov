@@ -56,7 +56,7 @@ pca = None
 try:
     i2c_bus = busio.I2C(SCL, SDA)
     pca = PCA9685(i2c_bus)
-    #test push on branch
+    #test 2 push on branch
 except:
     rospy.logerr("Failed to initialize PCA.")
 
